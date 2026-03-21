@@ -30,7 +30,6 @@ public class Carta {
         this.suit = suit;
         this.faceValue = faceValue;
     }
-
     /**
      * Método que modifica la figura de la carta.
      * 

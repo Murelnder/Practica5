@@ -98,6 +98,7 @@ public class Mazo {
      */
     public Carta tomarCartaDelMazo() {
         Carta carta = deck.get(0);
+        deck.remove(0);
         return carta;
     }
 
