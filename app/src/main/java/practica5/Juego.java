@@ -62,13 +62,17 @@ public class Juego {
                 + "está en posesión de:");
         if (deckHand.buscarCarta(cartaAletoria)) {
             System.out.println("El mazo\n");
+            System.out.println(deckHand.toString());
         } else if (player1.buscarCartaJugador(cartaAletoria)) {
             System.out.println(player1.displayName() + "\n");
+            System.out.println(player1.toString());
         } else if (player1.buscarCartaJugador(cartaAletoria)) {
             System.out.println(player2.displayName() + "\n");
+            System.out.println(player2.toString());
         } else {
             System.out.println(player3.displayName() + "\n");
+            System.out.println(player3.toString());
         }
-        System.out.println(deckHand.toString());
+
     }
 }
